@@ -39,20 +39,6 @@ This repository contains the Verilog HDL source code, simulation files, reports,
 
 ---
 
-## 📁 Repository Structure
-
-```text
-📦 Internship-Verilog-Projects
-├── Floating_Point_Adder/
-├── Booth_Multiplier/
-├── Linear_Carry_Select_Adder/
-├── Reports/
-├── Waveforms/
-└── README.md
-```
-
----
-
 ## 🎯 Objectives
 
 * Design and implement digital circuits using Verilog HDL.
