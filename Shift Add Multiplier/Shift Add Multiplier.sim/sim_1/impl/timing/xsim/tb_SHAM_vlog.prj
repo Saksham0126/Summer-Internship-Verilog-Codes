@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef" \
+"tb_SHAM_time_impl.v" \
+"../../../../../Shift Add Multiplier.srcs/sources_1/new/SHAM_tb.v" \
+
+# Do not sort compile order
+nosort

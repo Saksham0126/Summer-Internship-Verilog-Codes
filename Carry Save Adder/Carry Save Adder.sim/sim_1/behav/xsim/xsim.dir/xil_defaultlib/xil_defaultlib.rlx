@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+E:/Vivado_Projects/Carry Save Adder/Carry Save Adder.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+E:/Vivado_Projects/Carry Save Adder/Carry Save Adder.srcs/sim_1/new/csatb.v,1780318334,verilog,,,,csatb,,,../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Carry Save Adder/Carry Save Adder.srcs/sources_1/new/CSA.v,1781866995,verilog,,E:/Vivado_Projects/Carry Save Adder/Carry Save Adder.srcs/sources_1/new/fulladder.v,,CSA,,,../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Carry Save Adder/Carry Save Adder.srcs/sources_1/new/fulladder.v,1780312451,verilog,,E:/Vivado_Projects/Carry Save Adder/Carry Save Adder.srcs/sim_1/new/csatb.v,,full_adder,,,../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,

@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+E:/Vivado_Projects/WallaceTree/WallaceTree.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+E:/Vivado_Projects/WallaceTree/WallaceTree.srcs/sim_1/new/wtm_tb.v,1780915529,verilog,,,,wtm_tb,,,../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/WallaceTree/WallaceTree.srcs/sources_1/new/FA.v,1780910061,verilog,,E:/Vivado_Projects/WallaceTree/WallaceTree.srcs/sources_1/new/HA.v,,FA,,,../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/WallaceTree/WallaceTree.srcs/sources_1/new/HA.v,1780910092,verilog,,E:/Vivado_Projects/WallaceTree/WallaceTree.srcs/sources_1/new/WTM.v,,HA,,,../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/WallaceTree/WallaceTree.srcs/sources_1/new/WTM.v,1780918009,verilog,,E:/Vivado_Projects/WallaceTree/WallaceTree.srcs/sim_1/new/wtm_tb.v,,WTM,,,../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,

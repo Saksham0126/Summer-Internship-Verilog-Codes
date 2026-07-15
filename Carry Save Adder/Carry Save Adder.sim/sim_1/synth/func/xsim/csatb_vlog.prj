@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef" \
+"csatb_func_synth.v" \
+"../../../../../Carry Save Adder.srcs/sim_1/new/csatb.v" \
+
+# Do not sort compile order
+nosort

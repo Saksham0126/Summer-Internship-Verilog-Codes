@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef" \
+"tb_FMA_Simple_func_impl.v" \
+"../../../../../FPA_Fused Multiply Accumulator.srcs/sim_1/new/sim_tb.v" \
+
+# Do not sort compile order
+nosort

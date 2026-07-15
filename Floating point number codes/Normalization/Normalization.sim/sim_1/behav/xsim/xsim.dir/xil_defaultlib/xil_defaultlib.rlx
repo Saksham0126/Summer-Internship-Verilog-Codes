@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+E:/Vivado_Projects/Floating point number codes/Normalization/Normalization.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+E:/Vivado_Projects/Floating point number codes/Normalization/Normalization.srcs/sim_1/new/norm_tb.v,1781634071,verilog,,,,tb_norm_standalone,,,../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Floating point number codes/Normalization/Normalization.srcs/sources_1/new/Encoder.v,1781255581,verilog,,E:/Vivado_Projects/Floating point number codes/Normalization/Normalization.srcs/sources_1/new/norm.v,,Encoder,,,../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Floating point number codes/Normalization/Normalization.srcs/sources_1/new/norm.v,1781633812,verilog,,E:/Vivado_Projects/Floating point number codes/Normalization/Normalization.srcs/sim_1/new/norm_tb.v,,norm,,,../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,

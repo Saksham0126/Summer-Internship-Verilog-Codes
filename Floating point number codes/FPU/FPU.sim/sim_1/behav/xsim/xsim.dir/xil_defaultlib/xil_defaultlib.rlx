@@ -1,0 +1,13 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+E:/Vivado_Projects/Floating point number codes/FPU/FPU.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+E:/Vivado_Projects/Floating point number codes/FPU/FPU.srcs/sim_1/new/fpu_sim.v,1781642245,verilog,,,,tb_FPU_simple,,,../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Floating point number codes/FPU/FPU.srcs/sources_1/new/Adder.v,1781642516,verilog,,E:/Vivado_Projects/Floating point number codes/FPU/FPU.srcs/sources_1/new/DIV.v,,FPA,,,../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Floating point number codes/FPU/FPU.srcs/sources_1/new/DIV.v,1781641186,verilog,,E:/Vivado_Projects/Floating point number codes/FPU/FPU.srcs/sources_1/new/Encoder.v,,div_fp,,,../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Floating point number codes/FPU/FPU.srcs/sources_1/new/Encoder.v,1781641410,verilog,,E:/Vivado_Projects/Floating point number codes/FPU/FPU.srcs/sources_1/new/FPU.v,,Encoder,,,../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Floating point number codes/FPU/FPU.srcs/sources_1/new/FPU.v,1781642678,verilog,,E:/Vivado_Projects/Floating point number codes/FPU/FPU.srcs/sources_1/new/MULT.v,,FPU,,,../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Floating point number codes/FPU/FPU.srcs/sources_1/new/MULT.v,1781641008,verilog,,E:/Vivado_Projects/Floating point number codes/FPU/FPU.srcs/sources_1/new/SHAM.v,,FPM,,,../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Floating point number codes/FPU/FPU.srcs/sources_1/new/SHAM.v,1781641051,verilog,,E:/Vivado_Projects/Floating point number codes/FPU/FPU.srcs/sources_1/new/norm.v,,SHAM,,,../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Floating point number codes/FPU/FPU.srcs/sources_1/new/norm.v,1781641275,verilog,,E:/Vivado_Projects/Floating point number codes/FPU/FPU.srcs/sim_1/new/fpu_sim.v,,norm,,,../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,

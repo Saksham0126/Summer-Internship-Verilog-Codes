@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1781635561">
+  <File Type="ROUTE-PWR" Name="norm_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="norm.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="norm_power_summary_routed.pb"/>
+  <File Type="OPT-RQA-PB" Name="norm_rqa_opted.pb"/>
+  <File Type="REPORTS-TCL" Name="norm_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="norm_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="norm_opt.dcp"/>
+  <File Type="OPT-DRC" Name="norm_drc_opted.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="norm_routed_bb.dcp"/>
+  <File Type="OPT-UTIL" Name="norm_utilization_opted.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="norm_timing_summary_routed.pb"/>
+  <File Type="OPT-UTIL-PB" Name="norm_utilization_opted.pb"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="norm_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="norm.hwdef"/>
+  <File Type="OPT-TIMING" Name="norm_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="norm_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="norm_drc_pwropted.rpt"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="norm.nts"/>
+  <File Type="PWROPT-TIMING" Name="norm_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="norm_placed.dcp"/>
+  <File Type="PLACE-IO" Name="norm_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="norm_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="norm_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="norm_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="norm_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="norm_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="norm_incremental_reuse_pre_placed.rpt"/>
+  <File Type="NOC_SOLUTION_FILE" Name="norm.ncr"/>
+  <File Type="PLACE-TIMING" Name="norm_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="norm_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="norm_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="norm_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="norm_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="norm_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="norm_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="norm_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-UTIL" Name="norm_utilization_routed.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="norm_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="norm_routed.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="norm_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-UTIL-PB" Name="norm_utilization_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="norm_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="norm_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="norm_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="norm_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="norm_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="norm_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="norm_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="norm_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="norm_route_status.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="norm_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="norm_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="norm_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="norm_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="norm_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="norm_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="norm_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="norm_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="norm_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="norm_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="norm_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="norm_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="norm_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="norm_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="norm.bit"/>
+  <File Type="BG-BIN" Name="norm.bin"/>
+  <File Type="BITSTR-MSK" Name="norm.msk"/>
+  <File Type="BITSTR-RBT" Name="norm.rbt"/>
+  <File Type="BITSTR-NKY" Name="norm.nky"/>
+  <File Type="BITSTR-BMM" Name="norm_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="norm.mmi"/>
+  <File Type="PDI-FILE" Name="norm.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="norm_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="norm_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="norm.rcfi"/>
+  <File Type="CFI_FILE" Name="norm.cfi"/>
+  <File Type="RNPI_FILE" Name="norm.rnpi"/>
+  <File Type="RCDO-FILE" Name="norm.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="norm_markers.rnpi"/>
+  <File Type="MARKER-RCDO-FILE" Name="norm_markers.rcdo"/>
+  <File Type="BOOT_RNPI_FILE" Name="norm_boot.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="norm_boot_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="norm_pld.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="norm_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="norm_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="norm_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="norm_pld_unmask.rnpi"/>
+  <File Type="PL-RCDO-FILE" Name="norm_pld.rcdo"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="norm_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="norm_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="norm_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="norm_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="norm_pld_unmask.rcdo"/>
+  <File Type="NPI_FILE" Name="norm.npi"/>
+  <File Type="RBD_FILE" Name="norm.rbd"/>
+  <File Type="MMI-FILE" Name="norm.mmi"/>
+  <File Type="BIF-FILE" Name="norm.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="norm_boot.bif"/>
+  <File Type="PL-BIF-FILE" Name="norm_pld.bif"/>
+  <File Type="LTX-FILE" Name="norm.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="norm_boot.ltx"/>
+  <File Type="PL-LTX-FILE" Name="norm_pld.ltx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="norm.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="norm.sysdef"/>
+  <File Type="BG-BGN" Name="norm.bgn"/>
+  <File Type="BG-DRC" Name="norm.drc"/>
+  <File Type="RDI-RDI" Name="norm.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="norm_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="norm_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/norm.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="norm"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/norm.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2025"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

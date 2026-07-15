@@ -1,0 +1,310 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Jun 30 00:51:10 2026
+# Process ID         : 3356
+# Current directory  : E:/Vivado_Projects/1011seqdec/1011seqdec.runs/synth_1
+# Command line       : vivado.exe -log seq_detector_1011.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source seq_detector_1011.tcl
+# Log file           : E:/Vivado_Projects/1011seqdec/1011seqdec.runs/synth_1/seq_detector_1011.vds
+# Journal file       : E:/Vivado_Projects/1011seqdec/1011seqdec.runs/synth_1\vivado.jou
+# Running On         : Saksham
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13650HX
+# CPU Frequency      : 2803 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 25463 MB
+# Swap memory        : 2818 MB
+# Total Virtual      : 28282 MB
+# Available Virtual  : 9548 MB
+#-----------------------------------------------------------
+source seq_detector_1011.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/utils_1/imports/synth_1/seq_detector_1011.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/utils_1/imports/synth_1/seq_detector_1011.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top seq_detector_1011 -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10256
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1346.973 ; gain = 540.840
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'seq_detector_1011' [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/seqdec.v:4]
+INFO: [Synth 8-6157] synthesizing module 'ms_dff_gate_level' [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ms_dff_gate_level' (0#1) [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'seq_detector_1011' (0#1) [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/seqdec.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1464.387 ; gain = 658.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1464.387 ; gain = 658.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1464.387 ; gain = 658.254
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1464.387 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/constrs_1/new/constraints.xdc]
+WARNING: [Vivado 12-507] No nets matched '*y_OBUF*'. [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/constrs_1/new/constraints.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/constrs_1/new/constraints.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/constrs_1/new/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/seq_detector_1011_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/seq_detector_1011_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1520.418 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1520.418 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1520.418 ; gain = 714.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1520.418 ; gain = 714.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1520.418 ; gain = 714.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1520.418 ; gain = 714.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1520.418 ; gain = 714.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1660.156 ; gain = 854.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1660.156 ; gain = 854.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+Found timing loop:
+     0: i_7/O (LUT2)
+      [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:21]
+     1: i_7/I1 (LUT2)
+     2: i_0/O (LUT4)
+      [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:15]
+     3: i_0/I3 (LUT4)
+     4: i_7/O (LUT2)
+      [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:21]
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/seqdec.v:4]
+Inferred a: "set_disable_timing -from I1 -to O i_7"
+Found timing loop:
+     0: i_10/O (LUT2)
+      [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:21]
+     1: i_10/I1 (LUT2)
+     2: i_3/O (LUT4)
+      [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:15]
+     3: i_3/I3 (LUT4)
+     4: i_10/O (LUT2)
+      [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:21]
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/seqdec.v:4]
+Inferred a: "set_disable_timing -from I1 -to O i_10"
+Found timing loop:
+     0: i_9/O (LUT2)
+      [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:28]
+     1: i_9/I1 (LUT2)
+     2: i_12/O (LUT4)
+      [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:29]
+     3: i_12/I3 (LUT4)
+     4: i_9/O (LUT2)
+      [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:28]
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/seqdec.v:4]
+Inferred a: "set_disable_timing -from I1 -to O i_9"
+Found timing loop:
+     0: i_8/O (LUT2)
+      [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:28]
+     1: i_8/I1 (LUT2)
+     2: i_13/O (LUT4)
+      [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:29]
+     3: i_13/I3 (LUT4)
+     4: i_8/O (LUT2)
+      [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:28]
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/seqdec.v:4]
+Inferred a: "set_disable_timing -from I1 -to O i_8"
+Found timing loop:
+     0: i_7/O (LUT2)
+      [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:21]
+     1: i_7/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/seqdec.v:4]
+Found timing loop:
+     0: i_7/O (LUT2)
+      [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:21]
+     1: i_7/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/seqdec.v:4]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1669.750 ; gain = 863.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1919.035 ; gain = 1112.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1919.035 ; gain = 1112.902
+---------------------------------------------------------------------------------
+Found timing loop:
+     0: y_OBUF_inst_i_3/O (LUT4)
+      [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:28]
+     1: y_OBUF_inst_i_3/I3 (LUT4)
+     2: y_OBUF_inst_i_3/O (LUT4)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/seqdec.v:4]
+Inferred a: "set_disable_timing -from I3 -to O y_OBUF_inst_i_3"
+Found timing loop:
+     0: y_OBUF_inst_i_5/O (LUT4)
+      [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:21]
+     1: y_OBUF_inst_i_5/I3 (LUT4)
+     2: y_OBUF_inst_i_5/O (LUT4)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/seqdec.v:4]
+Inferred a: "set_disable_timing -from I3 -to O y_OBUF_inst_i_5"
+Found timing loop:
+     0: y_OBUF_inst_i_2/O (LUT4)
+      [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:28]
+     1: y_OBUF_inst_i_2/I3 (LUT4)
+     2: y_OBUF_inst_i_2/O (LUT4)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/seqdec.v:4]
+Inferred a: "set_disable_timing -from I3 -to O y_OBUF_inst_i_2"
+Found timing loop:
+     0: y_OBUF_inst_i_4/O (LUT6)
+      [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/ms_dff_gate_level.v:21]
+     1: y_OBUF_inst_i_4/I5 (LUT6)
+     2: y_OBUF_inst_i_4/O (LUT6)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/Vivado_Projects/1011seqdec/1011seqdec.srcs/sources_1/new/seqdec.v:4]
+Inferred a: "set_disable_timing -from I5 -to O y_OBUF_inst_i_4"
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1919.035 ; gain = 1112.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1919.035 ; gain = 1112.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1919.035 ; gain = 1112.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1919.035 ; gain = 1112.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT3 |     1|
+|2     |LUT4 |     3|
+|3     |LUT6 |     2|
+|4     |IBUF |     3|
+|5     |OBUF |     1|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1919.035 ; gain = 1112.902
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 10 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1919.035 ; gain = 1056.871
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1919.035 ; gain = 1112.902
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1928.156 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1931.758 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: eea1fa22
+INFO: [Common 17-83] Releasing license: Synthesis
+23 Infos, 1 Warnings, 11 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1931.758 ; gain = 1357.227
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1931.758 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/Vivado_Projects/1011seqdec/1011seqdec.runs/synth_1/seq_detector_1011.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file seq_detector_1011_utilization_synth.rpt -pb seq_detector_1011_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 30 00:51:41 2026...

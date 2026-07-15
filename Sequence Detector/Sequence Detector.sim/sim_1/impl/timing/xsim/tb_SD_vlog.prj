@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef" \
+"tb_SD_time_impl.v" \
+"../../../../../Sequence Detector.srcs/sim_1/new/SD_tb.v" \
+
+# Do not sort compile order
+nosort

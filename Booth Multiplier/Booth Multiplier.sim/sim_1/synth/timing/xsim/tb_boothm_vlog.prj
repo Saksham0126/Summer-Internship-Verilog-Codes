@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef" \
+"tb_boothm_time_synth.v" \
+"../../../../../Booth Multiplier.srcs/sim_1/new/boothm_tb.v" \
+
+# Do not sort compile order
+nosort

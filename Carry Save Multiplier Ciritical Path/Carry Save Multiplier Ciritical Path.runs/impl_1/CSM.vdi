@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Jun  9 14:34:16 2026
+# Process ID         : 3308
+# Current directory  : E:/Vivado_Projects/Carry Save Multiplier Ciritical Path/Carry Save Multiplier Ciritical Path.runs/impl_1
+# Command line       : vivado.exe -log CSM.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source CSM.tcl -notrace
+# Log file           : E:/Vivado_Projects/Carry Save Multiplier Ciritical Path/Carry Save Multiplier Ciritical Path.runs/impl_1/CSM.vdi
+# Journal file       : E:/Vivado_Projects/Carry Save Multiplier Ciritical Path/Carry Save Multiplier Ciritical Path.runs/impl_1\vivado.jou
+# Running On         : Saksham
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13650HX
+# CPU Frequency      : 2803 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 25463 MB
+# Swap memory        : 2415 MB
+# Total Virtual      : 27879 MB
+# Available Virtual  : 11502 MB
+#-----------------------------------------------------------
+source CSM.tcl -notrace
+Command: link_design -top CSM -part xc7z020clg484-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 802.938 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2025.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/Vivado_Projects/Carry Save Multiplier Ciritical Path/Carry Save Multiplier Ciritical Path.srcs/constrs_1/new/constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [E:/Vivado_Projects/Carry Save Multiplier Ciritical Path/Carry Save Multiplier Ciritical Path.srcs/constrs_1/new/constraints.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Vivado_Projects/Carry Save Multiplier Ciritical Path/Carry Save Multiplier Ciritical Path.srcs/constrs_1/new/constraints.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [E:/Vivado_Projects/Carry Save Multiplier Ciritical Path/Carry Save Multiplier Ciritical Path.srcs/constrs_1/new/constraints.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Vivado_Projects/Carry Save Multiplier Ciritical Path/Carry Save Multiplier Ciritical Path.srcs/constrs_1/new/constraints.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [E:/Vivado_Projects/Carry Save Multiplier Ciritical Path/Carry Save Multiplier Ciritical Path.srcs/constrs_1/new/constraints.xdc:27]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. [E:/Vivado_Projects/Carry Save Multiplier Ciritical Path/Carry Save Multiplier Ciritical Path.srcs/constrs_1/new/constraints.xdc:27]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [E:/Vivado_Projects/Carry Save Multiplier Ciritical Path/Carry Save Multiplier Ciritical Path.srcs/constrs_1/new/constraints.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 947.008 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+5 Infos, 3 Warnings, 3 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net P_OBUF[7] has multiple drivers: P_OBUF[7]_inst_i_2/O, and P_OBUF[7]_inst_i_1/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net c3 has multiple drivers: P_OBUF[4]_inst_i_3/O, and P_OBUF[4]_inst_i_2/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net c4 has multiple drivers: P_OBUF[7]_inst_i_4/O, and P_OBUF[7]_inst_i_3/O.
+INFO: [Project 1-461] DRC finished with 3 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.770 . Memory (MB): peak = 970.238 ; gain = 19.254
+INFO: [Common 17-83] Releasing license: Implementation
+10 Infos, 3 Warnings, 3 Critical Warnings and 4 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Tue Jun  9 14:34:27 2026...

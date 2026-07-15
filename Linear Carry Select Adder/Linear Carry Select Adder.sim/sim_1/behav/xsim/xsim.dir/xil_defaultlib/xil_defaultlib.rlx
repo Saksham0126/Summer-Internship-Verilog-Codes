@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+E:/Vivado_Projects/Linear Carry Select Adder/Linear Carry Select Adder.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+E:/Vivado_Projects/Linear Carry Select Adder/Linear Carry Select Adder.srcs/sim_1/new/LCSA_tb.v,1780480297,verilog,,,,LCSA_tb,,,../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Linear Carry Select Adder/Linear Carry Select Adder.srcs/sources_1/new/FA.v,1780477524,verilog,,E:/Vivado_Projects/Linear Carry Select Adder/Linear Carry Select Adder.srcs/sources_1/new/LCSA.v,,FA,,,../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Linear Carry Select Adder/Linear Carry Select Adder.srcs/sources_1/new/LCSA.v,1781511181,verilog,,E:/Vivado_Projects/Linear Carry Select Adder/Linear Carry Select Adder.srcs/sources_1/new/MUX.v,,LCSA,,,../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Linear Carry Select Adder/Linear Carry Select Adder.srcs/sources_1/new/MUX.v,1780478021,verilog,,E:/Vivado_Projects/Linear Carry Select Adder/Linear Carry Select Adder.srcs/sim_1/new/LCSA_tb.v,,MUX,,,../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,

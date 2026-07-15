@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+E:/Vivado_Projects/Floating point number codes/seq test fpga/seq test fpga.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+E:/Vivado_Projects/Floating point number codes/seq test fpga/seq test fpga.srcs/sim_1/new/sim.v,1782725142,verilog,,,,testbench,,,../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Floating point number codes/seq test fpga/seq test fpga.srcs/sources_1/new/dff.v,1782724804,verilog,,E:/Vivado_Projects/Floating point number codes/seq test fpga/seq test fpga.srcs/sources_1/new/seqfpga.v,,dff,,,../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Floating point number codes/seq test fpga/seq test fpga.srcs/sources_1/new/seqfpga.v,1782724994,verilog,,E:/Vivado_Projects/Floating point number codes/seq test fpga/seq test fpga.srcs/sim_1/new/sim.v,,Seqdec,,,../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,

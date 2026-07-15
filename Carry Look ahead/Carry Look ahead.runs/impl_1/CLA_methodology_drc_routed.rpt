@@ -1,0 +1,133 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Fri Jun 19 12:38:31 2026
+| Host         : Saksham running 64-bit major release  (build 9200)
+| Command      : report_methodology -file CLA_methodology_drc_routed.rpt -pb CLA_methodology_drc_routed.pb -rpx CLA_methodology_drc_routed.rpx
+| Design       : CLA
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max checks: <unlimited>
+             Checks found: 14
++--------+----------+------------------------------------------+--------+
+| Rule   | Severity | Description                              | Checks |
++--------+----------+------------------------------------------+--------+
+| XDCH-2 | Warning  | Same min and max delay values on IO port | 14     |
++--------+----------+------------------------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+XDCH-2#1 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.000 ns has been defined on port 'A[0]' relative to clock virtual_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock virtual_clk 0.000 [get_ports {{A[*]} {B[*]} Cin}]
+E:/Vivado_Projects/Carry Look ahead/Carry Look ahead.srcs/constrs_1/new/constraint.xdc (Line: 2)
+Related violations: <none>
+
+XDCH-2#2 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.000 ns has been defined on port 'A[1]' relative to clock virtual_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock virtual_clk 0.000 [get_ports {{A[*]} {B[*]} Cin}]
+E:/Vivado_Projects/Carry Look ahead/Carry Look ahead.srcs/constrs_1/new/constraint.xdc (Line: 2)
+Related violations: <none>
+
+XDCH-2#3 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.000 ns has been defined on port 'A[2]' relative to clock virtual_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock virtual_clk 0.000 [get_ports {{A[*]} {B[*]} Cin}]
+E:/Vivado_Projects/Carry Look ahead/Carry Look ahead.srcs/constrs_1/new/constraint.xdc (Line: 2)
+Related violations: <none>
+
+XDCH-2#4 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.000 ns has been defined on port 'A[3]' relative to clock virtual_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock virtual_clk 0.000 [get_ports {{A[*]} {B[*]} Cin}]
+E:/Vivado_Projects/Carry Look ahead/Carry Look ahead.srcs/constrs_1/new/constraint.xdc (Line: 2)
+Related violations: <none>
+
+XDCH-2#5 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.000 ns has been defined on port 'B[0]' relative to clock virtual_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock virtual_clk 0.000 [get_ports {{A[*]} {B[*]} Cin}]
+E:/Vivado_Projects/Carry Look ahead/Carry Look ahead.srcs/constrs_1/new/constraint.xdc (Line: 2)
+Related violations: <none>
+
+XDCH-2#6 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.000 ns has been defined on port 'B[1]' relative to clock virtual_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock virtual_clk 0.000 [get_ports {{A[*]} {B[*]} Cin}]
+E:/Vivado_Projects/Carry Look ahead/Carry Look ahead.srcs/constrs_1/new/constraint.xdc (Line: 2)
+Related violations: <none>
+
+XDCH-2#7 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.000 ns has been defined on port 'B[2]' relative to clock virtual_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock virtual_clk 0.000 [get_ports {{A[*]} {B[*]} Cin}]
+E:/Vivado_Projects/Carry Look ahead/Carry Look ahead.srcs/constrs_1/new/constraint.xdc (Line: 2)
+Related violations: <none>
+
+XDCH-2#8 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.000 ns has been defined on port 'B[3]' relative to clock virtual_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock virtual_clk 0.000 [get_ports {{A[*]} {B[*]} Cin}]
+E:/Vivado_Projects/Carry Look ahead/Carry Look ahead.srcs/constrs_1/new/constraint.xdc (Line: 2)
+Related violations: <none>
+
+XDCH-2#9 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.000 ns has been defined on port 'Cin' relative to clock virtual_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock virtual_clk 0.000 [get_ports {{A[*]} {B[*]} Cin}]
+E:/Vivado_Projects/Carry Look ahead/Carry Look ahead.srcs/constrs_1/new/constraint.xdc (Line: 2)
+Related violations: <none>
+
+XDCH-2#10 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'Cout' relative to clock virtual_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock virtual_clk 0.000 [get_ports {{Sum[*]} Cout}]
+E:/Vivado_Projects/Carry Look ahead/Carry Look ahead.srcs/constrs_1/new/constraint.xdc (Line: 3)
+Related violations: <none>
+
+XDCH-2#11 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'Sum[0]' relative to clock virtual_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock virtual_clk 0.000 [get_ports {{Sum[*]} Cout}]
+E:/Vivado_Projects/Carry Look ahead/Carry Look ahead.srcs/constrs_1/new/constraint.xdc (Line: 3)
+Related violations: <none>
+
+XDCH-2#12 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'Sum[1]' relative to clock virtual_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock virtual_clk 0.000 [get_ports {{Sum[*]} Cout}]
+E:/Vivado_Projects/Carry Look ahead/Carry Look ahead.srcs/constrs_1/new/constraint.xdc (Line: 3)
+Related violations: <none>
+
+XDCH-2#13 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'Sum[2]' relative to clock virtual_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock virtual_clk 0.000 [get_ports {{Sum[*]} Cout}]
+E:/Vivado_Projects/Carry Look ahead/Carry Look ahead.srcs/constrs_1/new/constraint.xdc (Line: 3)
+Related violations: <none>
+
+XDCH-2#14 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'Sum[3]' relative to clock virtual_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock virtual_clk 0.000 [get_ports {{Sum[*]} Cout}]
+E:/Vivado_Projects/Carry Look ahead/Carry Look ahead.srcs/constrs_1/new/constraint.xdc (Line: 3)
+Related violations: <none>
+
+

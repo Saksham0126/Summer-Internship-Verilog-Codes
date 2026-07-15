@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+E:/Vivado_Projects/Floating point adder/Floating point adder.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+E:/Vivado_Projects/Floating point adder/Floating point adder.srcs/sim_1/new/fpa_tb.v,1781598374,verilog,,E:/Vivado_Projects/Floating point adder/Floating point adder.srcs/sources_1/new/normalizer.v,,tb_FPA_5Cases,,,../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Floating point adder/Floating point adder.srcs/sources_1/new/Encoder.v,1781094757,verilog,,E:/Vivado_Projects/Floating point adder/Floating point adder.srcs/sources_1/new/FPA.v,,Encoder,,,../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Floating point adder/Floating point adder.srcs/sources_1/new/FPA.v,1781598530,verilog,,E:/Vivado_Projects/Floating point adder/Floating point adder.srcs/sources_1/new/normalizer.v,,FPA,,,../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Floating point adder/Floating point adder.srcs/sources_1/new/normal.v,1781335635,verilog,,E:/Vivado_Projects/Floating point adder/Floating point adder.srcs/sim_1/new/fpa_tb.v,,normal,,,../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_Projects/Floating point adder/Floating point adder.srcs/sources_1/new/normalizer.v,1781597939,verilog,,E:/Vivado_Projects/Floating point adder/Floating point adder.srcs/sim_1/new/fpa_tb.v,,norm,,,../../../../../../AMD/2025.2/Vivado/data/rsb/busdef,,,,,

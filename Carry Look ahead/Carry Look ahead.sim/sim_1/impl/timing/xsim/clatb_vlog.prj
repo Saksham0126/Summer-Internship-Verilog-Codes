@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef" \
+"clatb_time_impl.v" \
+"../../../../../Carry Look ahead.srcs/sim_1/new/clatb.v" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,50 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Tue Jun 30 00:52:27 2026
+| Host         : Saksham running 64-bit major release  (build 9200)
+| Command      : report_methodology -file seq_detector_1011_methodology_drc_routed.rpt -pb seq_detector_1011_methodology_drc_routed.pb -rpx seq_detector_1011_methodology_drc_routed.rpx
+| Design       : seq_detector_1011
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max checks: <unlimited>
+             Checks found: 3
++-----------+----------+--------------------------+--------+
+| Rule      | Severity | Description              | Checks |
++-----------+----------+--------------------------+--------+
+| TIMING-23 | Warning  | Combinational loop found | 3      |
++-----------+----------+--------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-23#1 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between y_OBUF_inst_i_3/I3 and y_OBUF_inst_i_3/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#2 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between y_OBUF_inst_i_4/I5 and y_OBUF_inst_i_4/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#3 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between y_OBUF_inst_i_5/I3 and y_OBUF_inst_i_5/O to disable the timing loop
+Related violations: <none>
+
+

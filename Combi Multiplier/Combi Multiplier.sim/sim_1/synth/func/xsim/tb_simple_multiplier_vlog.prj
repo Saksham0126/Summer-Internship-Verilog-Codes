@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../AMD/2025.2/Vivado/data/rsb/busdef" \
+"tb_simple_multiplier_func_synth.v" \
+"../../../../../Combi Multiplier.srcs/sim_1/new/sim.v" \
+
+# Do not sort compile order
+nosort
