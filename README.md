@@ -1,3 +1,9 @@
+## Documentation
+
+A detailed report for all the projects developed during the internship can be accessed here:
+
+**[Summer Internship Report (PDF)]([https://drive.google.com/your-report-link](https://drive.google.com/file/d/1eCwdhgcYtSTXD5TJNaVdm5XJpa2P0tk5/view?usp=sharing))**
+
 # Summer Internship Verilog Codes
 
 A collection of Verilog HDL projects developed during my Summer Research Internship and personal learning in Digital Design and Computer Architecture.
