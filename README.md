@@ -1,8 +1,8 @@
 ## Documentation
 
-A detailed report for all the projects developed during the internship can be accessed here:
+A comprehensive report documenting the objectives, design methodology, implementation, simulation results, and conclusions of the projects completed during my summer internship is available below.
 
-**[Summer Internship Report (PDF)]([https://drive.google.com/your-report-link](https://drive.google.com/file/d/1eCwdhgcYtSTXD5TJNaVdm5XJpa2P0tk5/view?usp=sharing))**
+- **[Summer Internship Report (PDF)](https://drive.google.com/file/d/1eCwdhgcYtSTXD5TJNaVdm5XJpa2P0tk5/view?usp=sharing)**
 
 # Summer Internship Verilog Codes
 
